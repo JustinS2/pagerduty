@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "pagerduty/version"
 
 Gem::Specification.new do |gem|
-  gem.name          = "pagerduty"
+  gem.name          = "pagerduty-sensu"
   gem.version       = Pagerduty::VERSION
   gem.authors       = ["Charlie Somerville", "Orien Madgwick"]
   gem.email         = ["charlie@charliesomerville.com", "_@orien.io"]
   gem.description   =
-    "Provides a lightweight interface for calling the PagerDuty Integration API"
+    "This is a fork of the pagerduty gem with support for the PagerDuty 2.0 API."
   gem.summary       = "Pagerduty Integration API client library"
   gem.homepage      = "http://github.com/envato/pagerduty"
   gem.license       = "MIT"
